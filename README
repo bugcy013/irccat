@@ -3,6 +3,10 @@ IRCcat
 
 root@dvcloudlab232:/opt/irccat# java -cp build/:dist/irccat.jar:libs/commons-collections-3.2.jar:libs/commons-configuration-1.5.jar:libs/commons-lang-2.3.jar:libs/commo
 ns-logging-1.1.1.jar:libs/pircbot.jar:libs/xercesImpl.jar:libs/xml-apis.jar fm.last.irccat.IRCCat examples/irccat.xml 
+/join #testchan1
+/join #testchan2
+Default channel: #testchan1
+Listening on 192.168.70.232 : 12345
 
 
 As in `cat` to IRC. 
