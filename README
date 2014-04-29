@@ -8,6 +8,9 @@ ns-logging-1.1.1.jar:libs/pircbot.jar:libs/xercesImpl.jar:libs/xml-apis.jar fm.l
 Default channel: #testchan1
 Listening on 192.168.70.232 : 12345
 
+[sysops@d2NIU68 ~]$ echo "`cat /etc/passwd`"|nc -w 10 192.168.70.232 12345
+[sysops@d2NIU68 ~]$ echo "Test IRCCAT"|nc -w 10 192.168.70.232 12345
+
 
 As in `cat` to IRC. 
 
